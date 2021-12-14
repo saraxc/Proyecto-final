@@ -11,7 +11,7 @@ import { NotifierService } from '../notifier.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  cards = [];
+  cards:{cols:string, rows:string, title:string}[]=[];
   cardsForHandset = [];
   cardsForWeb = [];
 
